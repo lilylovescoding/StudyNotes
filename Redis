@@ -1,0 +1,14 @@
+# 安装 & 使用[Redis推荐Linux开发]
+## 基于Homebrew安装Redis
+
+brew -- version      //检查电脑上有没有安装Homebrew
+brew search redis    //查看redis版本
+brew install redis   //安装最新版本的redis
+
+## 启动Redis
+brew services start redis   //启动redis服务
+brew services list    //查看mac上所有服务目前的状况
+brew services stop redis      //关闭redis
+brew services restart redis   //重启redis
+redis-cli           //打开图形化界面
+brew list redis     //查看redis安装的位置  //redis.conf的目录：/opt/homebrew/Cellar/redis/7.0.10/.bottle/etc/
